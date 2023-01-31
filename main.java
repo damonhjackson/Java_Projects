@@ -3,19 +3,17 @@ import java.util.Date;
 
 public class main {
     public static void main(String[] args) {
-       // Arrays, how to define and print old way
-        int [] numbers = new int[5];
-        numbers[0] = 1;
-        numbers[1] = 2;
+       // Multi-dimensional Arrays
+        // row and columns
+        //two dimensional array
+        int [] [] numbers = new int[2][3];
+        numbers[0][0] = 1;
+        System.out.println(Arrays.deepToString(numbers));
 
-        System.out.println(Arrays.toString(numbers)); // print array values
+        // two dimensinal array
+        int [][] numbers2 = {{1,2,3}, {4,5,6}};
+        System.out.println(Arrays.deepToString(numbers2));
 
-        // Array, define and print new way
-        int [] numbers2 = {2, 3, 5, 1, 4};
-
-        Arrays.sort(numbers2); // sort array
-        System.out.println(numbers.length); // number of items in array
-        System.out.println(Arrays.toString(numbers2));
 
     }
 }
