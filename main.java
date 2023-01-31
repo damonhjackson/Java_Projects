@@ -1,6 +1,8 @@
 public class main {
     public static void main(String[] args) {
-        int age = 30;
-        System.out.println("Hello World");
+        // declaring and initalizing variables
+        int myAge = 30;
+        int herAge = myAge;
+        System.out.println(herAge);
     }
 }
